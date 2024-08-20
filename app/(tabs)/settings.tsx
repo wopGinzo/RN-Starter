@@ -1,10 +1,9 @@
 import Ionicons from '@expo/vector-icons/Ionicons';
-import { StyleSheet, Image, Platform, View } from 'react-native';
+import { View } from 'react-native';
 import { Avatar, AvatarFallback, AvatarImage } from '~/components/ui/avatar';
 import { Button } from '~/components/ui/button';
 import { Tooltip, TooltipContent, TooltipTrigger } from '~/components/ui/tooltip';
 
-import ParallaxScrollView from '~/components/ParallaxScrollView';
 import {
   Card,
   CardContent,
@@ -13,8 +12,6 @@ import {
   CardHeader,
   CardTitle,
 } from '~/components/ui/card';
-import { Info } from 'lucide-react-native';
-import { Link } from 'expo-router';
 import Animated, { FadeInUp, FadeOutDown, LayoutAnimationConfig } from 'react-native-reanimated';
 import { Progress } from '~/components/ui/progress';
 import React from 'react';
